@@ -3,7 +3,7 @@
 # FILENAME: Similarity.py
 # SPECIFICATION: output the two most similar documents according to their cosine similarity
 # FOR: CS 5990 (Advanced Data Mining) - Assignment #1
-# TIME SPENT: how long it took you to complete the assignment
+# TIME SPENT: 40 minutes
 # -----------------------------------------------------------*/
 
 # Importing some Python libraries
