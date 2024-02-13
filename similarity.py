@@ -19,10 +19,14 @@ doc4 = "I do like soccer, my favorite sport in the olympic games"
 # Use the following words as terms to create your document-term matrix
 # [soccer, favorite, sport, like, one, support, olympic, games]
 # --> Add your Python code here
-def word_counts(str):
+def word_counts(doc):
     a = []
     for term in terms:
-        a.append(str.count(term))
+        count = 0
+        for word in doc.split():
+            if word.replace(",","") == term:
+                count+=1
+        a.append(count)
     return a
 
 document_matrix = []
